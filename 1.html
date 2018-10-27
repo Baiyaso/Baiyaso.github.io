@@ -1,0 +1,24 @@
+<html>
+
+    <body>
+    <script>
+document.write("<h1>hello world</h1>");
+function changeimg()
+{
+    ele=document.getElementById("img1");
+    if(ele.src.match("1"))
+    {
+	ele.src="2.gif";
+    }
+    else
+    {
+	ele.src="1.gif";
+    }
+}
+    </script>
+    <button onclick="alert('你敢点我')">
+	我是一个可爱陈庆拴
+	</button>
+	<img id="img1" onclick="changeimg()" src="1.gif" />
+    </body>
+</html>
